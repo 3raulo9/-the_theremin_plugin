@@ -1,0 +1,21 @@
+# build output
+build/
+build-*/
+out/
+cmake-build-*/
+test-output/
+
+# IDE / OS
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+
+# local JUCE checkout (fetched automatically by CMake)
+JUCE/
+
+# Claude Code local settings
+.claude/
